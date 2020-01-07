@@ -18,5 +18,12 @@
 <resources>
     <!-- Margin on the right side of the system icon group on Keyguard. -->
     <dimen name="system_icons_keyguard_padding_end">16dp</dimen>
+
+    <!-- Custom cutout overlay view sizes -->
+    <dimen name="config_customCutoutTopWidth">240.0px</dimen>
+    <dimen name="config_customCutoutTopHeight">240.0px</dimen>
+    <dimen name="config_customCutoutBottomWidth">240.0px</dimen>
+    <dimen name="config_customCutoutBottomHeight">240.0px</dimen>
+
 </resources>
 
