@@ -48,6 +48,7 @@ PRODUCT_PACKAGES += \
     vendor.oneplus.hardware.display@1.0
 
 # FOD
+TARGET_HAS_FOD := true
 EXTRA_FOD_ANIMATIONS := true
 
 # Soong namespaces
