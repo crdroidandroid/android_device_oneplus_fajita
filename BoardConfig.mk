@@ -33,3 +33,6 @@ PRODUCT_SOONG_NAMESPACES += device/oneplus/common
 
 # inherit from the proprietary version
 -include vendor/oneplus/fajita/BoardConfigVendor.mk
+
+# Recovery
+TARGET_PREBUILT_RECOVERY_RAMDISK_CPIO := $(DEVICE_PATH)/ramdisk-recovery.cpio
