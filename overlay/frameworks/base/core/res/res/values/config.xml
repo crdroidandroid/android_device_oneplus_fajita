@@ -402,6 +402,13 @@
     <dimen name="status_bar_height_portrait">80px</dimen>
     <dimen name="status_bar_height_landscape">80px</dimen>
 
+    <!-- Does the battery LED support multiple colors?
+         Used to decide if the user can change the colors -->
+    <bool name="config_multiColorBatteryLed">false</bool>
+
+    <!-- Whether device has notification LED -->
+    <bool name="config_hasNotificationLed">false</bool>
+
 <!-- crDroid-specific customizations below -->
 <!--
      Copyright (C) 2016-2021 crDroid Android Project
