@@ -415,4 +415,7 @@
          Used to decide if the user can change the colors -->
     <bool name="config_multiColorBatteryLed">false</bool>
 
+    <!-- Whether device has notification LED -->
+    <bool name="config_hasNotificationLed">false</bool>  
+
 </resources>
