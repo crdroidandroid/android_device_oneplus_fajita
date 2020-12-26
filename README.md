@@ -32,3 +32,7 @@ $ fastboot flash boot boot.img
 $ fastboot flash system system.img
 $ fastboot -w reboot
 ```
+
+## Ignore that, it's ancient and doesn't work.
+
+This branch is based on the crDroid 6 (10.0 branch) device tree, with basically no changes to the enchilada- or fajita-specific trees other than maybe updating the inlined TWRP recovery image to be Android 11-compatible. Cons: probably has half-broken bluetooth, wireless display, notch, FOD, etc. Pros: will probably boot. 
