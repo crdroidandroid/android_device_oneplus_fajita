@@ -51,10 +51,6 @@ PRODUCT_PACKAGES += \
 TARGET_HAS_FOD := true
 EXTRA_FOD_ANIMATIONS := true
 
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += \
-    device/oneplus/common
-
 # Inherit from oneplus sdm845-common
 $(call inherit-product, device/oneplus/sdm845-common/common.mk)
 
