@@ -35,4 +35,4 @@ TARGET_KERNEL_CONFIG := enchilada_defconfig
 -include vendor/oneplus/fajita/BoardConfigVendor.mk
 
 # Recovery
-TARGET_PREBUILT_RECOVERY_RAMDISK_CPIO := $(DEVICE_PATH)/ramdisk-recovery.cpio
+#TARGET_PREBUILT_RECOVERY_RAMDISK_CPIO := $(DEVICE_PATH)/ramdisk-recovery.cpio
