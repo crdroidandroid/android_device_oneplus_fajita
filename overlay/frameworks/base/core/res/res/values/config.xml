@@ -426,4 +426,6 @@
      limitations under the License.
 -->
 
+    <!-- Screen off UDFPS -->
+    <bool name="config_supportScreenOffUdfps">true</bool>
 </resources>
