@@ -376,7 +376,7 @@ public final class OpFeatures {
     private static final BitSet sFeatures = new BitSet(363);
 
     static {
-        File file = new File("/odm/etc/odm_feature_list");
+        File file = new File("/system/product/vendor_overlay/29/odm/etc/odm_feature_list");
 
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
             for (String line = br.readLine(); line != null; line = br.readLine()) {

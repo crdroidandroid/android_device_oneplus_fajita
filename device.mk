@@ -51,15 +51,18 @@ PRODUCT_PACKAGES += \
 TARGET_HAS_FOD := true
 EXTRA_FOD_ANIMATIONS := true
 
+# Namespaces
+PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
+
 # OnePlus
 PRODUCT_PACKAGES += \
-    oneplus-fwk.oneplus_sdm845
+    oneplus-fwk.oneplus
 
 PRODUCT_BOOT_JARS += \
-    oneplus-fwk.oneplus_sdm845
+    oneplus-fwk.oneplus
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/odm_feature_list:$(TARGET_COPY_OUT_ODM)/etc/odm_feature_list
+    $(LOCAL_PATH)/configs/odm_feature_list:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/odm/etc/odm_feature_list
 
 # Inherit from oneplus sdm845-common
 $(call inherit-product, device/oneplus/sdm845-common/common.mk)
