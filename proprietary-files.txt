@@ -11,6 +11,9 @@ odm/etc/acdbdata/MTP/MTP_Headset_cal.acdb
 odm/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 odm/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
 
+# ADSP modules
+vendor/lib/rfsa/adsp/dirac_resource.dar
+
 # Audio
 vendor/etc/firmware/tfa98xx.cnt
 
@@ -28,10 +31,36 @@ vendor/lib64/hw/goodix.fod.sdm845.so
 vendor/lib64/fp_hal_extension.so
 vendor/lib64/libgf_ud_hal.so
 
+# Graphics (Adreno firmware)
+vendor/firmware/a630_zap.b01
+vendor/firmware/a630_zap.elf
+vendor/firmware/a630_zap.mdt
+
+# IPA firmware
+vendor/firmware/ipa_fws.b01
+vendor/firmware/ipa_fws.elf
+vendor/firmware/ipa_fws.mdt
+
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
 vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
 vendor/lib64/libqtikeymaster4.so
+
+# NFC
+vendor/etc/libnfc-nxp.conf
+vendor/etc/libnfc-nxp_RF.conf
+vendor/etc/libnfc-nxp_RF_beijingbus.conf
+vendor/etc/libnfc-nxp_RF_changancard.conf
+vendor/etc/libnfc-nxp_RF_productline.conf
+vendor/etc/libnfc-nxp_RF_shenzhentong.conf
+vendor/etc/libnfc-nxp_RF_yangchengtong.conf
+vendor/etc/libnfc-nxp_RF_zhengzhoubus.conf
+vendor/etc/libnfc-nxp_beijingbus.conf
+vendor/etc/libnfc-nxp_changancard.conf
+vendor/etc/libnfc-nxp_productline.conf
+vendor/etc/libnfc-nxp_shenzhentong.conf
+vendor/etc/libnfc-nxp_yangchengtong.conf
+vendor/etc/libnfc-nxp_zhengzhoubus.conf
 
 # ODM feature list
 odm/etc/odm_feature_list
