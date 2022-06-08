@@ -390,11 +390,6 @@
         Z
     </string>
 
-    <!-- Whether the display cutout region of the main built-in display should be forced to
-         black in software (to avoid aliasing or emulate a cutout that is not physically existent).
-     -->
-    <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
-
     <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
     <integer-array name="config_udfps_sensor_props" translatable="false" >
         <item>531</item>  <!-- <item>sensorLocationX</item> -->
