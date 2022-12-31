@@ -16,7 +16,7 @@
 */
 -->
 <resources>
-    <!--  Allow CornerHandleView and PathSpecCornerPathRenderer to decouple from corner-radius -->
+    <!-- Default device corner radius, used for assist UI -->
     <dimen name="config_rounded_mask_size">110px</dimen>
 
     <!-- Microns/ums (1000 um = 1mm) per pixel for the given device. If unspecified, UI that
@@ -26,7 +26,18 @@
     <!-- Udfps fingerprint animation -->
     <dimen name="udfps_animation_offset">0dip</dimen>
 
-    <!-- Margin on the right side of the system icon group on Keyguard. -->
-    <dimen name="system_icons_keyguard_padding_end">16dp</dimen>
-</resources>
+    <!-- the padding on the start of the statusbar -->
+    <dimen name="status_bar_padding_start">0.0px</dimen>
 
+    <!-- the padding on the end of the statusbar -->
+    <dimen name="status_bar_padding_end">5.0px</dimen>
+
+    <!-- Margin on the left side of the carrier text on Keyguard -->
+    <dimen name="keyguard_carrier_text_margin">72.0px</dimen>
+
+    <!--  Total minimum padding to enforce to ensure that the dot can always show  -->
+    <dimen name="ongoing_appops_dot_min_padding">22.6dp</dimen>
+
+    <!-- Insert description here (guess we need something like this) -->
+    <dimen name="rounded_corner_content_padding">26.1dp</dimen>
+</resources>
