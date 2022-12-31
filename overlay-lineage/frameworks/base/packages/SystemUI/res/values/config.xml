@@ -20,6 +20,10 @@
 <!-- These resources are around just to allow their values to be customized
      for different hardware and product builds. -->
 <resources>
+    <!-- Max visible notification icons -->
+    <integer name="config_maxVisibleNotificationIcons">5</integer>
+    <integer name="config_maxVisibleNotificationIconsOnLock">4</integer>
+
     <!-- Color of the UDFPS Pressed view -->
     <color name="config_udfpsColor">#ff00ff01</color>
 
