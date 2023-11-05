@@ -54,6 +54,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# UDFPS
+TARGET_HAS_UDFPS := true
+
 # WiFi
 PRODUCT_PACKAGES += \
     TargetWifiOverlay
