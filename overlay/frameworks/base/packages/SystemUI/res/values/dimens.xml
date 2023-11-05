@@ -23,6 +23,9 @@
         relies on this value will not be sized correctly. -->
     <item name="pixel_pitch" format="float" type="dimen">63.17</item>
 
+    <!-- Udfps fingerprint animation -->
+    <dimen name="udfps_animation_offset">0dip</dimen>
+
     <!-- Margin on the right side of the system icon group on Keyguard. -->
     <dimen name="system_icons_keyguard_padding_end">16dp</dimen>
 </resources>

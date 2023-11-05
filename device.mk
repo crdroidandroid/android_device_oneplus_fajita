@@ -51,6 +51,8 @@ PRODUCT_PACKAGES += \
 
 $(call soong_config_set,surfaceflinger,udfps_lib,//hardware/oneplus:libudfps_extension.oneplus)
 
+TARGET_HAS_UDFPS := true
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
