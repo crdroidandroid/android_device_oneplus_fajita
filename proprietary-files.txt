@@ -11,6 +11,9 @@ odm/etc/acdbdata/MTP/MTP_Headset_cal.acdb
 odm/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 odm/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
 
+# ADSP Modules
+vendor/lib/rfsa/adsp/dirac_resource.dar
+
 # Audio
 vendor/etc/firmware/tfa98xx.cnt
 
