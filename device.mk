@@ -50,10 +50,6 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service.oneplus \
     vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor
 
-# ih8sn
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/ih8sn.conf.fajita:$(TARGET_COPY_OUT_SYSTEM)/etc/ih8sn.conf
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
