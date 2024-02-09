@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2009 The Android Open Source Project
+     Copyright (C) 2016-2024 crDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -407,8 +408,8 @@
 
     <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
     <integer-array name="config_udfps_sensor_props" translatable="false" >
-        <item>531</item>  <!-- <item>sensorLocationX</item> -->
-        <item>2053</item> <!-- <item>sensorLocationY</item> -->
-        <item>87</item>   <!-- <item>sensorRadius</item> -->
+        <item>540</item>  <!-- <item>sensorLocationX</item> -->
+        <item>2062</item> <!-- <item>sensorLocationY</item> -->
+        <item>98</item>   <!-- <item>sensorRadius</item> -->
     </integer-array>
 </resources>
