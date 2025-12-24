@@ -403,9 +403,6 @@
         <item>98</item>   <!-- <item>sensorRadius</item> -->
     </integer-array>
 
-    <!-- Whether to disable Smart Pixels on UDFPS -->
-    <bool name="config_disableSmartPixelsOnUDFPS">true</bool>
-
     <!-- Whether devices suports in-display fingerprint when screen is off (crDroid) -->
     <bool name="config_supportScreenOffUdfps">true</bool>
 
